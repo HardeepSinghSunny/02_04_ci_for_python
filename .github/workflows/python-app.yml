@@ -11,7 +11,7 @@ on:
 
 permissions:
   contents: read
-  packages: write
+  
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
        checks: write
-       packages: write
+       
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
